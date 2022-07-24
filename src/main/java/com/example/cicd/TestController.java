@@ -8,7 +8,7 @@ public class TestController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Welcome to the application!";
+        return "Welcome to the application! Works even after a change!";
     }
 
 }
